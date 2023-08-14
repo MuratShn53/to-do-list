@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+    <button id="plusbutton" class="plusbutton">+</button>
+    
+    <div id="modal" class="modal">
+        <div id="back" class="back"></div>
+       <form id="form" class="form">
+        <button type="button" id="close" class="close">X</button>
+        <h4>Başlık</h4>
+        <input type="text" id="title" class="title"/>
+        <h4>Açıklama</h4>
+        <textarea id="description" class="description" ></textarea>
+        <button type="button" id="save" class="save">Kaydet</button>
+        <div id="alert"></div>
+       </form>
+    </div>
+   
+    <div class="notcard">
+        <div  class="title-note"></div>
+        <div class="des-note"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
